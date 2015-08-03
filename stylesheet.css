@@ -1,0 +1,21 @@
+* {
+	text-align: center;
+}
+
+h1, p {
+	color: #ED5A5A;
+	font-family: Arial;
+
+}
+
+body {
+	background-color: #EDEFF0;
+}
+
+#submission {
+ 	border:1px solid #3E474F;
+	border-radius:5px;
+	padding: 1px 5px;
+	font-family: Arial;
+	text-align: left;
+}

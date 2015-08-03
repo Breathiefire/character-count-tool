@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+<body>
+	<h1>
+		Counting Characters
+	</h1>
+<p>Click the button to return the number of characters in the textbox (does <strong>not</strong> include spaces).</p>
+<br>
+<textarea id="submission" name="charcount"></textarea>
+<br>
+<button onclick="myFunction()">count</button>
+
+<p id="demo"></p>
+
+
+<script>
+function myFunction() {
+    var text = document.getElementById("submission").value;
+    var withoutSpace = text.replace(/ /g,"");
+    var number = withoutSpace.length;
+    document.getElementById("demo").innerHTML = number;
+	
+}
+</script>
+
+</body>
+</html>
